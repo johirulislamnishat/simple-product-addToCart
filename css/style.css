@@ -41,6 +41,21 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.addToCart-Btn{
+  background-color: blue;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: 0px;
+}
+.details-Btn{
+  background-color:tomato;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: 0px;
+}
 .single-product {
   padding: 20px;
   transition: 0.6s;
