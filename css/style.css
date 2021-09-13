@@ -14,16 +14,22 @@ body {
 }
 .search-box {
   border: 1px solid rgb(3, 118, 211);
-  width: 281px;
+  width: 275px;
   border-radius: 5px;
   margin: auto;
   margin-top: 50px;
+  margin-bottom: 40px;
   border-right: none;
+  display: flex;
+  
 }
 .search-button {
-  padding: 10px 50px;
-  border-radius: 25px;
-  margin-left: 20px;
+  background-color: tomato;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: 0px;
+  
 }
 #all-products {
   display: grid;
@@ -36,8 +42,9 @@ body {
   justify-content: center;
 }
 .single-product {
-  padding: 10px;
+  padding: 20px;
   transition: 0.6s;
+
 }
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
