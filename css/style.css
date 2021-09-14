@@ -42,6 +42,11 @@ body {
   justify-content: center;
 }
 
+.cart-bg{
+  background-color: cornsilk;
+  border-radius: 20px;
+}
+
 .addToCart-Btn{
   background-color: blue;
   color: white;
